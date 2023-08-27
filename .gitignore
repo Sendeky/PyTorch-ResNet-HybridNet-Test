@@ -1,4 +1,5 @@
-# test image
+# test images and videos
+*.mp4
 *.jpg
 
 # MacOS Stuff

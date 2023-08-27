@@ -12,6 +12,7 @@ from PIL import Image
 
 # device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
+
 img = read_image("./testImage3.jpg")
 # img = Image.open("./testImage3.jpg")
 # convert_tensor = torchvision.transforms.ToTensor()
