@@ -14,7 +14,7 @@ ssd_model.to('cuda')
 ssd_model.eval()
 
 # opens image
-image = Image.open('/testImage.png').convert("RGB")
+image = Image.open('./testImage.png').convert("RGB")
 
 convert_tensor = torchvision.transforms.ToTensor()  # converts image to PyTorch Tensor
 resize         = torchvision.transforms.Resize((300,300))  # image to model needs to be  680x384
